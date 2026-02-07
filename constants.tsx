@@ -1,0 +1,92 @@
+
+import React from 'react';
+import { Shield, TrendingUp, Zap, Briefcase, GraduationCap, Users } from 'lucide-react';
+import { Language } from './types';
+
+export const TRANSLATIONS: Record<Language, any> = {
+  EN: {
+    welcome: "Welcome to WealthGenius Pro",
+    tagline: "Your AI-Powered Financial Command Center",
+    dashboard: "Dashboard",
+    education: "Education Hub",
+    trading: "Trading Center",
+    calculators: "Calculators",
+    insurance: "Insurance & IUL",
+    crypto: "Crypto Magic",
+    security: "Security Fortress",
+    visitorCount: "Global Investors Connected",
+    accuracy: "AI Forecast Accuracy",
+    marketOpen: "MARKET OPEN",
+    marketClosed: "MARKET CLOSED",
+    buy: "Buy",
+    sell: "Sell",
+    hold: "Hold",
+    premium: "Unlock Premium",
+    donate: "Support the Vision",
+  },
+  ES: {
+    welcome: "Bienvenido a WealthGenius Pro",
+    tagline: "Su Centro de Comando Financiero Impulsado por IA",
+    dashboard: "Tablero",
+    education: "Centro Educativo",
+    trading: "Centro de Trading",
+    calculators: "Calculadoras",
+    insurance: "Seguros e IUL",
+    crypto: "Magia Cripto",
+    security: "Fortaleza de Seguridad",
+    visitorCount: "Inversores Globales Conectados",
+    accuracy: "Precisión de Pronóstico IA",
+    marketOpen: "MERCADO ABIERTO",
+    marketClosed: "MERCADO CERRADO",
+    buy: "Comprar",
+    sell: "Vender",
+    hold: "Mantener",
+    premium: "Desbloquear Premium",
+    donate: "Apoyar la Visión",
+  },
+  ZH: {
+    welcome: "欢迎来到 WealthGenius Pro",
+    tagline: "您的 AI 驱动金融指挥中心",
+    dashboard: "仪表板",
+    education: "教育枢纽",
+    trading: "交易中心",
+    calculators: "计算器",
+    insurance: "保险与 IUL",
+    crypto: "加密魔法",
+    security: "安全堡垒",
+    visitorCount: "全球投资者已连接",
+    accuracy: "AI 预测准确度",
+    marketOpen: "开市",
+    marketClosed: "休市",
+    buy: "买入",
+    sell: "卖出",
+    hold: "持有",
+    premium: "解锁高级版",
+    donate: "支持愿景",
+  },
+  // ... Simplified for brevity in this example, but fully extensible
+  FR: { welcome: "Bienvenue sur WealthGenius Pro", tagline: "Votre Centre de Commande Financier IA" },
+  AR: { welcome: "مرحباً بكم في WealthGenius Pro", tagline: "مركز القيادة المالية المدعوم بالذكاء الاصطناعي" },
+  DE: { welcome: "Willkommen bei WealthGenius Pro", tagline: "Ihre KI-gesteuerte Finanzzentrale" },
+  IT: { welcome: "Benvenuti in WealthGenius Pro", tagline: "Il tuo centro di comando finanziario AI" },
+  PT: { welcome: "Bem-vindo ao WealthGenius Pro", tagline: "Seu Centro de Comando Financeiro IA" },
+  JA: { welcome: "WealthGenius Proへようこそ", tagline: "AI駆動型金融コマンドセンター" },
+  KO: { welcome: "WealthGenius Pro에 오신 것을 환영합니다", tagline: "AI 기반 금융 지휘 센터" },
+};
+
+export const SECTOR_DATA = [
+  { name: 'Tech', value: 35, color: '#3b82f6' },
+  { name: 'Finance', value: 20, color: '#10b981' },
+  { name: 'Health', value: 15, color: '#f59e0b' },
+  { name: 'Energy', value: 10, color: '#ef4444' },
+  { name: 'Retail', value: 20, color: '#8b5cf6' },
+];
+
+export const EDUCATION_MODULES = [
+  { id: 'iul-101', title: 'Index Universal Life (IUL)', icon: Shield, desc: 'Master tax-advantaged wealth transfer and cash value accumulation.', category: 'Insurance' },
+  { id: 'options-mastery', title: 'Options Trading Strategy', icon: Zap, desc: 'Advanced call/put spreads and hedging techniques for Wall Street mastery.', category: 'Trading' },
+  { id: 'irc-7702', title: 'IRC Section 7702 Deep Dive', icon: Briefcase, desc: 'Understand the legal architecture of tax-free retirement plans.', category: 'Wealth' },
+  { id: 'probate-avoidance', title: 'Estate & Probate Protection', icon: Users, desc: 'Secure generational wealth through sophisticated trust architectures.', category: 'Wealth' },
+  { id: 'college-funding', title: 'IUL College Funding', icon: GraduationCap, desc: 'Strategy to fund higher education without the constraints of 529 plans.', category: 'Education' },
+  { id: 'annuities-pros', title: 'Index Annuities (IA)', icon: TrendingUp, desc: 'Principal protection with significant market upside participation.', category: 'Retirement' },
+];

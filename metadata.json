@@ -1,0 +1,8 @@
+{
+  "name": "WealthGeniusPro",
+  "description": "A comprehensive, AI-driven financial ecosystem for stocks, crypto, options, IUL, and global wealth management, featuring hyper-photorealistic visuals and multi-language support.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
